@@ -19,7 +19,13 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 const locations = [];
-const cat = {};
+
+const cat = {
+    name: "Whiskers",
+    "Number of legs": 4,
+};
+
+
 //initialize buttons, you can use .onclick method, but prefer addEventListener for flexibility
 button1.onclick = goStore;
 button2.addEventListener("click", goCave);
